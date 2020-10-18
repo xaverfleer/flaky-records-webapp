@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '| Flaky Records |', // e.g: 'Name | Developer'
+  title: 'Flaky Records', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Flaky Records is a Glasgow based record label.', // e.g: Welcome to my website
 };
@@ -17,41 +17,41 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: 'I wake up and eat shit - this is paragraph 1',
-  paragraphTwo: 'I got to sleep and dream about eating shit - this paragraph 2',
-  paragraphThree: 'I wake up in the middle of the night and need to pee - this is para 3',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'flaky-logo.png',
+  paragraphOne:
+    'Flaky Records is a Glasgow-based record label facilitated by a no-hit wonder who releases' +
+    ' records that no-one listens to.',
+  paragraphTwo: "Please send links to your band's music by clicking the link below.",
+  paragraphThree:
+    "As a crumbling curmudgeon with Dinosaur (Jr.) tastes in music, I probably won't " +
+    " understand what your band is trying to accomplish other than rip-off something we've heard a " +
+    ' billion times before.',
+  resume: 'mailto:info@lylechristine.com', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'lyle-03.png',
     title: 'Lyle Christine',
-    info: 'Glasgow based musician',
-    info2: 'Currently working on album #10',
+    info: 'Glasgow-based musician. Patience of a toddler. Radioactive levels of cynicism.',
+    info2:
+      "Currently working on album number 10. Click below to listen to 'Funraiser', released" +
+      ' earlier in 2020.',
     url: 'https://www.lylechristine.com',
-    repo: 'https://www.lyleslatestalbum.com', // if no repo, the button will not show up
+    repo: 'https://lylechristine.com/albums/funraiser/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'SPAM',
-    info: "Scotland's answer to the Smashing Pumpkins",
-    info2: 'No records or tours, but cool guitar stickers',
-    url: 'https://www.thisisspam.com',
-    repo: 'https://www.latstalbum.com', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Jenny Jerry and the Jender Benders',
-    info: 'Super group featuring Jenni Jeffries and the Geoffrey Twins',
-    info2: 'Debut album after COVID fucks off',
-    url: 'https://JJJJJJJJJJ.com',
-    repo: 'https://latestrecord.com', // if no repo, the button will not show up
+    title: 'The Big Apple',
+    info: 'The whole of New York City recently formed a band and signed to Flaky Records.',
+    info2:
+      'All 8.4m residents of New York City are currently remotely recording and uploading their individual parts for the' +
+      ' debut album from The Big Apple. Filenames have proved challenging.',
+    url: 'https://www.youtube.com/watch?v=ylKxR6oZJE0',
+    repo: 'https://www.youtube.com/watch?v=ylKxR6oZJE0', // if no repo, the button will not show up
   },
 ];
 
